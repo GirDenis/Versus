@@ -8,9 +8,6 @@
 }
 
 body {
-    /*background-image: url(../css/img/IMAGE.png);
-    background-size: 1716px 700px;*/
-    
     overflow-x: hidden;
 }
 
@@ -39,14 +36,11 @@ img {
 header {
     background-image: url(../css/img/IMAGE.png);
     background-size: cover;
-    
     height: 540px;
 }
 
 header .header-nav  {
     display: flex;
-    /*align-items: center;*/
-    /*position: relative;*/
 }
 
 img.picture {
@@ -57,9 +51,6 @@ img.picture {
 
 header .header-nav ul {
     display: flex;
-    
-    /*align-items: center;
-    position: relative;*/
 }
 
 .header-nav-elems {
@@ -84,32 +75,11 @@ ul.menu {
     line-height: 17px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    
 }
-
-
-
 
 ul.menu>li:first-child>a {
     color: #00D6B4;
 }
-
-
-
-
-
-
-
-
-
-
-
-/*.logo {
-    display: flex;
-    align-items: flex-start;
-    margin-top: 40px;
-    
-}*/
 
 .logo p {
     font-family: 'Open Sans', sans-serif;
@@ -163,8 +133,6 @@ button {
 
 }
 
-
-
 button p {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -196,32 +164,16 @@ button p {
     font-size: 25px;
     line-height: 30px;
     margin-top: 20px;
-    
   }
 
   .content {
     display: flex;
-    /*align-content: center;*/
     justify-content: center;
-    
-
   }
-
-
-
-/*img.picture {
-    position: absolute;
-    top: 0;
-    object-fit: cover;
-    object-position: top;
-    width: 1540px;
-    height: 740px;
-}*/
 
 main {
     height: 868px;
     background-color:#222222;
-    
 }
 
 .content img {
@@ -244,39 +196,24 @@ main {
 }
 
 .content_second  {
-    
     display: flex;
-    /*align-content: center;*/
     justify-content: center;
-    /*margin-left: 144px;*/
 }
 
 .content_third  {
-    
     display: flex;
-    /*align-content: center;*/
     justify-content: center;
-    
 }
-/*.content {
-    position: absolute;
-    top: 0;
-    object-fit: cover;
-    object-position: top;
-}*/
 
 .item {
     position: relative;
     text-align: center;
     top: 40px;
-    
 }
 
 footer {
-    
     background-color: #222222;
     height: 128px;
-    
 }
 
 .item p {
